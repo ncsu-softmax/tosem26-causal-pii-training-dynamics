@@ -198,3 +198,6 @@ cython_debug/
 # Full ground-truth PII set contains real credentials/PII — distributed separately, not in the public repo
 detection_eval/data/groundtruth_pii_flat_min150.jsonl
 detection_eval/results/
+
+# macOS junk
+.DS_Store
