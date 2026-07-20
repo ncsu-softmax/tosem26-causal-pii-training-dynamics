@@ -20,12 +20,13 @@ contains live-looking credentials (keys, passwords) and other personal data. To 
 republishing real secrets, the full file is **not committed to this public repository**; only
 the redacted schema sample (`data/sample_redacted.jsonl`) is included.
 
-To reproduce the numbers, obtain the full file
-`groundtruth_pii_flat_min150.jsonl`
-(distributed via the archival record linked in the paper / available on request) and place it at:
+To reproduce the numbers, download the full file `groundtruth_pii_flat_min150.jsonl` from the
+archival record on Zenodo (<https://zenodo.org/records/21459384>) and place it at
+`detection_eval/data/groundtruth_pii_flat_min150.jsonl`, e.g. from the repository root:
 
-```
-detection_eval/data/groundtruth_pii_flat_min150.jsonl
+```bash
+curl -L "https://zenodo.org/records/21459384/files/groundtruth_pii_flat_min150.jsonl?download=1" \
+     -o detection_eval/data/groundtruth_pii_flat_min150.jsonl
 ```
 
 The script expects the full file at that path.

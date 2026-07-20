@@ -24,7 +24,12 @@ The human-annotated ground-truth evaluation of the PII retrieval stage (paper **
 ```bash
 python detection_eval/run_recall_precision.py
 ```
-Because the ground-truth set contains real credentials and PII, the full file is **not shipped in this public repository** — only a redacted schema sample (`detection_eval/data/sample_redacted.jsonl`) is included. See **`./detection_eval/README.md`** for the record schema, how to obtain and place the full data file, environment requirements (a HuggingFace token for the gated `bigcode/starpii` model), and a description of the generated outputs.
+Because the ground-truth set contains real credentials and PII, the full file is **not shipped in this public repository** — only a redacted schema sample (`detection_eval/data/sample_redacted.jsonl`) is included. The full file is archived on Zenodo (<https://zenodo.org/records/21459384>); download it and place it at `detection_eval/data/groundtruth_pii_flat_min150.jsonl` before running the script:
+```bash
+curl -L "https://zenodo.org/records/21459384/files/groundtruth_pii_flat_min150.jsonl?download=1" \
+     -o detection_eval/data/groundtruth_pii_flat_min150.jsonl
+```
+See **`./detection_eval/README.md`** for the record schema, environment requirements (a HuggingFace token for the gated `bigcode/starpii` model), and a description of the generated outputs.
 
 ## Fine-Tuning
 Model fine-tuning can be performed with the following command:  
