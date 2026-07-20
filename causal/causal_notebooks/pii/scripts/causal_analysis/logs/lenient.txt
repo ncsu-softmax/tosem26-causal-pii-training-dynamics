@@ -1,0 +1,404 @@
+============================= COMPUTING ANALYSIS FOR TREATMENT T2 ==================================== 
+=========== group: T2 FOR TYPE-ip_address
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T2 FOR TYPE-key
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T2 FOR TYPE-name
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T2 FOR TYPE-email
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T2 FOR TYPE-username
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T2 FOR TYPE-password
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+============================= STORING ANALYSIS FOR TREATMENT-T2 ==================================== 
+============================= COMPUTING ANALYSIS FOR TREATMENT T1 ==================================== 
+=========== group: T1 FOR TYPE-ip_address
+/workspaces/mica/notebooks/pii/scripts/causal_analysis/causal_analysis.py:98: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pearson_corr =  stats.pearsonr(input_corr_data, outout_corr_data)
+/workspaces/mica/notebooks/pii/scripts/causal_analysis/causal_analysis.py:99: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  spearman_corr = stats.spearmanr(input_corr_data, outout_corr_data)
+======= ERROR COMPUTING CE for backdoor.propensity_score_matching: This solver needs samples of at least 2 classes in the data, but the data contains only one class: np.False_ ============
+=========== group: T1 FOR TYPE-key
+/usr/local/lib/python3.11/dist-packages/sklearn/linear_model/_logistic.py:406: ConvergenceWarning: lbfgs failed to converge after 100 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=100).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T1 FOR TYPE-name
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T1 FOR TYPE-email
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T1 FOR TYPE-username
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T1 FOR TYPE-password
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+============================= STORING ANALYSIS FOR TREATMENT-T1 ==================================== 
+============================= COMPUTING ANALYSIS FOR TREATMENT T2 ==================================== 
+=========== group: T2 FOR TYPE-ip_address
+/usr/local/lib/python3.11/dist-packages/sklearn/linear_model/_logistic.py:406: ConvergenceWarning: lbfgs failed to converge after 100 iteration(s) (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+
+Increase the number of iterations to improve the convergence (max_iter=100).
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T2 FOR TYPE-key
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T2 FOR TYPE-name
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T2 FOR TYPE-email
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T2 FOR TYPE-username
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T2 FOR TYPE-password
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+============================= STORING ANALYSIS FOR TREATMENT-T2 ==================================== 
+============================= COMPUTING ANALYSIS FOR TREATMENT T1 ==================================== 
+=========== group: T1 FOR TYPE-ip_address
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T1 FOR TYPE-key
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T1 FOR TYPE-name
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T1 FOR TYPE-email
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T1 FOR TYPE-username
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T1 FOR TYPE-password
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+============================= STORING ANALYSIS FOR TREATMENT-T1 ==================================== 
+============================= COMPUTING ANALYSIS FOR TREATMENT T1 ==================================== 
+=========== group: T1 FOR TYPE-ip_address
+/workspaces/mica/notebooks/pii/scripts/causal_analysis/causal_analysis.py:98: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pearson_corr =  stats.pearsonr(input_corr_data, outout_corr_data)
+/workspaces/mica/notebooks/pii/scripts/causal_analysis/causal_analysis.py:99: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  spearman_corr = stats.spearmanr(input_corr_data, outout_corr_data)
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/usr/local/lib/python3.11/dist-packages/numpy/lib/_function_base_impl.py:3023: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+/usr/local/lib/python3.11/dist-packages/numpy/lib/_function_base_impl.py:3024: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T1 FOR TYPE-key
+/workspaces/mica/notebooks/pii/scripts/causal_analysis/causal_analysis.py:98: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pearson_corr =  stats.pearsonr(input_corr_data, outout_corr_data)
+/workspaces/mica/notebooks/pii/scripts/causal_analysis/causal_analysis.py:99: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  spearman_corr = stats.spearmanr(input_corr_data, outout_corr_data)
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/usr/local/lib/python3.11/dist-packages/numpy/lib/_function_base_impl.py:3023: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+/usr/local/lib/python3.11/dist-packages/numpy/lib/_function_base_impl.py:3024: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T1 FOR TYPE-name
+/workspaces/mica/notebooks/pii/scripts/causal_analysis/causal_analysis.py:98: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pearson_corr =  stats.pearsonr(input_corr_data, outout_corr_data)
+/workspaces/mica/notebooks/pii/scripts/causal_analysis/causal_analysis.py:99: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  spearman_corr = stats.spearmanr(input_corr_data, outout_corr_data)
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/usr/local/lib/python3.11/dist-packages/numpy/lib/_function_base_impl.py:3023: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+/usr/local/lib/python3.11/dist-packages/numpy/lib/_function_base_impl.py:3024: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T1 FOR TYPE-email
+/workspaces/mica/notebooks/pii/scripts/causal_analysis/causal_analysis.py:98: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pearson_corr =  stats.pearsonr(input_corr_data, outout_corr_data)
+/workspaces/mica/notebooks/pii/scripts/causal_analysis/causal_analysis.py:99: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  spearman_corr = stats.spearmanr(input_corr_data, outout_corr_data)
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/usr/local/lib/python3.11/dist-packages/numpy/lib/_function_base_impl.py:3023: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+/usr/local/lib/python3.11/dist-packages/numpy/lib/_function_base_impl.py:3024: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T1 FOR TYPE-username
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T1 FOR TYPE-password
+/workspaces/mica/notebooks/pii/scripts/causal_analysis/causal_analysis.py:98: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pearson_corr =  stats.pearsonr(input_corr_data, outout_corr_data)
+/workspaces/mica/notebooks/pii/scripts/causal_analysis/causal_analysis.py:99: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  spearman_corr = stats.spearmanr(input_corr_data, outout_corr_data)
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/usr/local/lib/python3.11/dist-packages/numpy/lib/_function_base_impl.py:3023: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+/usr/local/lib/python3.11/dist-packages/numpy/lib/_function_base_impl.py:3024: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+============================= STORING ANALYSIS FOR TREATMENT-T1 ==================================== 
+============================= COMPUTING ANALYSIS FOR TREATMENT T2 ==================================== 
+=========== group: T2 FOR TYPE-ip_address
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T2 FOR TYPE-key
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T2 FOR TYPE-name
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T2 FOR TYPE-email
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T2 FOR TYPE-username
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T2 FOR TYPE-password
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+============================= STORING ANALYSIS FOR TREATMENT-T2 ==================================== 
+============================= COMPUTING ANALYSIS FOR TREATMENT T2 ==================================== 
+=========== group: T2 FOR TYPE-ip_address
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T2 FOR TYPE-key
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T2 FOR TYPE-name
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T2 FOR TYPE-email
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T2 FOR TYPE-username
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T2 FOR TYPE-password
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+============================= STORING ANALYSIS FOR TREATMENT-T2 ==================================== 
+============================= COMPUTING ANALYSIS FOR TREATMENT T1 ==================================== 
+=========== group: T1 FOR TYPE-ip_address
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T1 FOR TYPE-key
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T1 FOR TYPE-name
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T1 FOR TYPE-email
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T1 FOR TYPE-username
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T1 FOR TYPE-password
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+============================= STORING ANALYSIS FOR TREATMENT-T1 ==================================== 
+============================= COMPUTING ANALYSIS FOR TREATMENT T1 ==================================== 
+=========== group: T1 FOR TYPE-ip_address
+/workspaces/mica/notebooks/pii/scripts/causal_analysis/causal_analysis.py:98: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pearson_corr =  stats.pearsonr(input_corr_data, outout_corr_data)
+/workspaces/mica/notebooks/pii/scripts/causal_analysis/causal_analysis.py:99: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  spearman_corr = stats.spearmanr(input_corr_data, outout_corr_data)
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/usr/local/lib/python3.11/dist-packages/numpy/lib/_function_base_impl.py:3023: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+/usr/local/lib/python3.11/dist-packages/numpy/lib/_function_base_impl.py:3024: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T1 FOR TYPE-key
+/workspaces/mica/notebooks/pii/scripts/causal_analysis/causal_analysis.py:98: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pearson_corr =  stats.pearsonr(input_corr_data, outout_corr_data)
+/workspaces/mica/notebooks/pii/scripts/causal_analysis/causal_analysis.py:99: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  spearman_corr = stats.spearmanr(input_corr_data, outout_corr_data)
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/usr/local/lib/python3.11/dist-packages/numpy/lib/_function_base_impl.py:3023: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+/usr/local/lib/python3.11/dist-packages/numpy/lib/_function_base_impl.py:3024: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T1 FOR TYPE-name
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T1 FOR TYPE-email
+/workspaces/mica/notebooks/pii/scripts/causal_analysis/causal_analysis.py:98: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pearson_corr =  stats.pearsonr(input_corr_data, outout_corr_data)
+/workspaces/mica/notebooks/pii/scripts/causal_analysis/causal_analysis.py:99: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  spearman_corr = stats.spearmanr(input_corr_data, outout_corr_data)
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/usr/local/lib/python3.11/dist-packages/numpy/lib/_function_base_impl.py:3023: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+/usr/local/lib/python3.11/dist-packages/numpy/lib/_function_base_impl.py:3024: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T1 FOR TYPE-username
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T1 FOR TYPE-password
+/workspaces/mica/notebooks/pii/scripts/causal_analysis/causal_analysis.py:98: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  pearson_corr =  stats.pearsonr(input_corr_data, outout_corr_data)
+/workspaces/mica/notebooks/pii/scripts/causal_analysis/causal_analysis.py:99: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  spearman_corr = stats.spearmanr(input_corr_data, outout_corr_data)
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/usr/local/lib/python3.11/dist-packages/numpy/lib/_function_base_impl.py:3023: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+/usr/local/lib/python3.11/dist-packages/numpy/lib/_function_base_impl.py:3024: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+============================= STORING ANALYSIS FOR TREATMENT-T1 ==================================== 
+============================= COMPUTING ANALYSIS FOR TREATMENT T2 ==================================== 
+=========== group: T2 FOR TYPE-ip_address
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T2 FOR TYPE-key
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T2 FOR TYPE-name
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T2 FOR TYPE-email
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T2 FOR TYPE-username
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T2 FOR TYPE-password
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+============================= STORING ANALYSIS FOR TREATMENT-T2 ==================================== 
+============================= COMPUTING ANALYSIS FOR TREATMENT T2 ==================================== 
+=========== group: T2 FOR TYPE-ip_address
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T2 FOR TYPE-key
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T2 FOR TYPE-name
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T2 FOR TYPE-email
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T2 FOR TYPE-username
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T2 FOR TYPE-password
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+============================= STORING ANALYSIS FOR TREATMENT-T2 ==================================== 
+============================= COMPUTING ANALYSIS FOR TREATMENT T1 ==================================== 
+=========== group: T1 FOR TYPE-ip_address
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T1 FOR TYPE-key
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T1 FOR TYPE-name
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T1 FOR TYPE-email
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T1 FOR TYPE-username
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+=========== group: T1 FOR TYPE-password
+/usr/local/lib/python3.11/dist-packages/sklearn/utils/validation.py:1352: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+Error performing unobserved covariate refutation - invalid index to scalar variable.
+============================= STORING ANALYSIS FOR TREATMENT-T1 ==================================== 
